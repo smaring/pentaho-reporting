@@ -159,7 +159,7 @@
     <grizzly.version>1.9.45</grizzly.version>
     <saxon.version>9.1.0.8</saxon.version>
     <guava.version>17.0</guava.version>
-    <commons-pool.version>1.5.7</commons-pool.version>
+    <commons-pool.version>1.6</commons-pool.version>
     <jsch.version>0.1.54</jsch.version>
     <test.workers>1</test.workers>
     <checkstyle.source.directory>${basedir}/src/main/java</checkstyle.source.directory>
