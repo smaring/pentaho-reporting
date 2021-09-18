@@ -54,7 +54,7 @@
     <commons-database.version>9.3.0.0-SNAPSHOT</commons-database.version>
     <wsdl4j.version>1.6.2</wsdl4j.version>
     <infobright.version>3.4</infobright.version>
-    <mstor.version>0.9.13</mstor.version>
+    <mstor.version>1.0.0</mstor.version>
     <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
     <openerp.report.version>0.10.0</openerp.report.version>
     <plugin.checkstyle.version>2.17</plugin.checkstyle.version>
