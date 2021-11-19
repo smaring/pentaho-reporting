@@ -34,7 +34,7 @@
     <wstx.version>3.2.4</wstx.version>
     <monetdb.version>2.8</monetdb.version>
     <plugin.enforcer.version>1.4.1</plugin.enforcer.version>
-    <xalan.version>2.6.0</xalan.version>
+    <xalan.version>2.7.2</xalan.version>
     <ftp4che.version>0.7.1</ftp4che.version>
     <hibernate.version>3.6.9.Final</hibernate.version>
     <groovy.version>2.4.8</groovy.version>
@@ -143,7 +143,7 @@
     <mondrian.version>9.3.0.0-SNAPSHOT</mondrian.version>
     <pdi-xml-plugin.version>9.3.0.0-SNAPSHOT</pdi-xml-plugin.version>
     <javacc-maven-plugin.version>2.6</javacc-maven-plugin.version>
-    <yaml.version>1.7</yaml.version>
+    <yaml.version>1.26</yaml.version>
     <wsdl4j-qname.version>1.6.1</wsdl4j-qname.version>
     <w3c.version>1.3</w3c.version>
     <rome.version>1.0</rome.version>
