@@ -152,7 +152,7 @@
     <jfreechart.version>1.0.13</jfreechart.version>
     <commons-collections4.version>4.4</commons-collections4.version>
     <servlet2.version>2.5</servlet2.version>
-    <odfdom-java.version>0.8.6</odfdom-java.version>
+    <odfdom-java.version>0.9.0</odfdom-java.version>
     <commons-math.version>1.1</commons-math.version>
     <gwt.version>2.5.1</gwt.version>
     <javassist.version>3.20.0-GA</javassist.version>
