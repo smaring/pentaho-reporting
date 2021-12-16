@@ -54,7 +54,7 @@
     <commons-database.version>9.3.0.0-SNAPSHOT</commons-database.version>
     <wsdl4j.version>1.6.2</wsdl4j.version>
     <infobright.version>3.4</infobright.version>
-    <mstor.version>0.9.13</mstor.version>
+    <mstor.version>1.0.0</mstor.version>
     <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
     <openerp.report.version>0.10.0</openerp.report.version>
     <plugin.checkstyle.version>2.17</plugin.checkstyle.version>
@@ -143,7 +143,7 @@
     <mondrian.version>9.3.0.0-SNAPSHOT</mondrian.version>
     <pdi-xml-plugin.version>9.3.0.0-SNAPSHOT</pdi-xml-plugin.version>
     <javacc-maven-plugin.version>2.6</javacc-maven-plugin.version>
-    <yaml.version>1.7</yaml.version>
+    <yaml.version>1.26</yaml.version>
     <wsdl4j-qname.version>1.6.1</wsdl4j-qname.version>
     <w3c.version>1.3</w3c.version>
     <rome.version>1.0</rome.version>
