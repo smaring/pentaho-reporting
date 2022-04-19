@@ -443,6 +443,14 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <plugins>
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <artifactId>maven-dependency-plugin</artifactId>
+      </plugin>
+    </plugins>
   </build>
 
   <profiles>
@@ -484,6 +492,11 @@
     </profile>
     <profile>
       <id>standard</id>
+      <activation>
+        <property>
+          <name>!skipDefault</name>
+        </property>
+      </activation>
       <properties>
         <pentaho-hadoop-shims.version>9.4.0.0-SNAPSHOT</pentaho-hadoop-shims.version>
         <plugins-to-unpack>mongodb-plugin,pentaho-cassandra-plugin,pdi-xml-plugin,kettle-json-plugin</plugins-to-unpack>
@@ -536,7 +549,6 @@
           <artifactId>org.osgi.core</artifactId>
           <scope>compile</scope>
         </dependency>
-
         <dependency>
           <groupId>org.apache.karaf</groupId>
           <artifactId>org.apache.karaf.main</artifactId>
@@ -560,7 +572,6 @@
         </dependency>
       </dependencies>
       <build>
-        <finalName>prd-ce-standard</finalName>
         <pluginManagement>
           <plugins>
             <plugin>
@@ -613,6 +624,7 @@
     <profile>
       <id>no-osgi</id>
       <properties>
+        <assembly_appendId>true</assembly_appendId>
         <plugins-to-unpack>
           pentaho-big-data-plugin,mongodb-plugin,pentaho-cassandra-plugin,pdi-xml-plugin,kettle-json-plugin
         </plugins-to-unpack>
