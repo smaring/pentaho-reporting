@@ -82,7 +82,7 @@
     <feed4j.version>1.0</feed4j.version>
     <launcher.version>9.3.0.0-SNAPSHOT</launcher.version>
     <swt-linux.version>4.3.2</swt-linux.version>
-    <jackcess.version>1.2.6</jackcess.version>
+    <jackcess.version>1.2.14.3</jackcess.version>
     <swingx.version>1.6.1</swingx.version>
     <pentaho-karaf.version>9.3.0.0-SNAPSHOT</pentaho-karaf.version>
     <commons-configuration.version>1.9</commons-configuration.version>
